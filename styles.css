@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'MinecraftRegular';
+  src: url('https://github.com/poopstuff/griefmod/raw/main/fonts/MinecraftRegular-Bmg3.otf');
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'MinecraftRegular', sans-serif;
+  background-color: rgb(18, 18, 18);
+  color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boner {
+    padding: 1rem;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.description {
+    margin: 1rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    margin: 1rem;
+    padding: 1.5rem;
+    min-width: 15rem;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.15s ease-out;
+}
+
+.button:hover {
+    transform: translateY(-0.5rem);
+}
+
+.button p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.button i {
+    margin-right: 0.5rem;
+}
